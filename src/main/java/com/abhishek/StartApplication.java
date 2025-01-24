@@ -12,8 +12,8 @@ public class StartApplication {
 
     @GetMapping("/")
     public String index(final Model model) {
-        model.addAttribute("title", "This is a SpringBoot Static Web Application");
-        model.addAttribute("msg", "Application Is Deployed To Kuberneets");
+        model.addAttribute("title", "Hi Gopi Dooluri and Welcome to The SpringBoot Static Web Application");
+        model.addAttribute("msg", "You have one pending task GOPI Application should Deploy to Kubernetes OR already Deployed To Kuberneets you can ignore");
         return "index";
     }
 
